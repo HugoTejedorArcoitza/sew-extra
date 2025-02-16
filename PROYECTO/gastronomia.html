@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Gastronomía - Laviana</title>
+    <meta name="author" content="Hugo Tejedor Arcoitza"/>
+    <meta name="description" content="Descubre la gastronomía típica de Laviana, Asturias.">
+    <meta name="keyword" content="comida,fabada,postre,plato"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css">
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css">
+    <link rel="icon" href="multimedia/favicon.png" />
+</head>
+<body>
+    <header>
+        <h1>Gastronomía de Laviana</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a class="active" href="gastronomia.html">Gastronomía</a>
+            <a href="rutas.html">Rutas</a>
+            <a href="meteorologia.html">Meteorología</a>
+            <a href="juego.html">Juego</a>
+            <a href="reservas.php">Reservas</a>
+            <a href="ayuda.html">Ayuda</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="introduccion">
+            <h2>Descubre los Sabores de Laviana</h2>
+            <p>La gastronomía de Laviana es un reflejo de su historia, cultura y entorno natural. Desde platos tradicionales hasta productos locales, cada bocado cuenta una historia de la región. Sumérgete en los sabores auténticos de este hermoso concejo asturiano.</p>
+        </section>
+
+        <section id="platos-tipicos">
+            <h2>Platos Típicos</h2>
+            <ol>
+                <li>Pote Asturiano</li>
+                <li>Fabada Asturiana</li>
+                <li>Arroz con Leche</li>
+                <li>Cachopo Asturiano</li>
+                <li>Bollo Preñao</li>
+            </ol>
+        </section>
+
+        <section id="productos-locales">
+            <h2>Productos Locales</h2>
+            <ul>
+                <li>Queso de Los Beyos</li>
+                <li>Chorizo a la Sidra</li>
+                <li>Embutidos de Cangas</li>
+                <li>Postres Tradicionales
+                    <ul>
+                        <li>Casadielles</li>
+                        <li>Bollinas</li>
+                        <li>Carajitos de Avilés</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="ingredientes-principales">
+            <h2>Ingredientes Principales</h2>
+            <dl>
+                <dt>Fabes</dt>
+                <dd>Alubias blancas típicas para la fabada.</dd>
+                <dt>Morcilla Asturiana</dt>
+                <dd>Ingrediente esencial del pote asturiano.</dd>
+                <dt>Sidra</dt>
+                <dd>Bebida tradicional fermentada de manzana.</dd>
+                <dt>Ternera Asturiana</dt>
+                <dd>Carne de alta calidad utilizada en cachopos y guisos.</dd>
+            </dl>
+        </section>
+
+        <section id="gastronomia-cifras">
+            <h2>Gastronomía en Cifras</h2>
+            <table id="tabla-gastronomia">
+                <tr>
+                    <th>Plato</th>
+                    <th>Popularidad</th>
+                </tr>
+                <tr>
+                    <td>Fabada Asturiana</td>
+                    <td>★★★★★</td>
+                </tr>
+                <tr>
+                    <td>Pote Asturiano</td>
+                    <td>★★★★☆</td>
+                </tr>
+                <tr>
+                    <td>Queso de Los Beyos</td>
+                    <td>★★★★☆</td>
+                </tr>
+                <tr>
+                    <td>Cachopo Asturiano</td>
+                    <td>★★★★★</td>
+                </tr>
+                <tr>
+                    <td>Casadielles</td>
+                    <td>★★★☆☆</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="multimedia">
+            <h2>Multimedia</h2>
+            <picture>
+                <source media="(max-width: 465px)" srcset="multimedia/laviana_movil.jpg" />
+                <source media="(max-width: 799px)" srcset="multimedia/laviana_tablet.jpg" />
+                <source media="(min-width: 800px)" srcset="multimedia/laviana_ordenador.jpg" />
+                <img src="multimedia/laviana_ordenador.jpg" alt="Imagen de Laviana" />
+            </picture>
+            <video controls>
+                <source src="multimedia/gastronomia.mp4" type="video/mp4">
+                <source src="multimedia/gastronomia.ogg" type="video/ogg">
+                Tu navegador no soporta la etiqueta de video.
+            </video>
+        </section>
+    </main>
+</body>
+</html>
